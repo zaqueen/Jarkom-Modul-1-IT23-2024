@@ -110,7 +110,7 @@ Langkah:
      kemudian menganalisa stream sehingga menemukan web server yang digunakan.
      <img src="attachment/evidence2.jpeg">
   4. Apa endpoint yang digunakan untuk login sebagai user biasa?
-     saya menerapkan filter **HTTP || tcp.len>0** untuk menampilkan hanya paket HTTP dan memiliki isi.
+     saya menerapkan filter **frame contains "POST"** untuk menampilkan hanya paket HTTP dan memiliki isi.
      kemudian saya melakukan analisa terhadap paket-paket tersebut dan menemukan paket yang berisi endpoint tersebut.
      <img src="attachment/evidence3.jpeg">
   5. Apa email dan password yang berhasil digunakan untuk login sebagai user biasa?
