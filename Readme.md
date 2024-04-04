@@ -18,6 +18,35 @@
   - [malwaew] 
 
 ## Challenges Completion
+
+### ! creds
+> Attacker menyadari jika dia bisa membuat clone ftp server dari target, temukan kredensial dari server ftp yang dibuat oleh attacker.
+
+Langkah:
+  1. Masukkan nc 10.15.40.20 10007
+  2. Apa username ftp yang digunakan oleh attacker?
+     hal pertama yang terpikirkan adalah memfilter dengan filter **tcp.len>0** yang langsung menampilkan hanya paket yang ada isinya.
+     pada beberapa paket sudah ketemu username ftp yang digunakan oleh attacker.
+     <img src="attachment/creds1.jpeg">
+  3. Apa password ftp yang digunakan oleh attacker?
+     hal pertama yang saya lakukan yaitu melakukan **follow TCP Stream** pada paket yang berisi kredensial username.
+     melihat isi stream ke 2 langsung ketemu password ftp yang digunakan oleh attacker.
+     <img src="attachment/creds2.jpeg">
+  4. Setelah menjawab beberapa pertanyaan tersebut flag berhasil didapatkan.
+     <img src="attachment/creds3.jpeg">
+
+### ! ATM or ATP or FTP ? 🤔
+> Pradityo mencoba mengembangkan server ftp, tetapi seseorang mencoba melakukan bruteforce login, bisakah anda menganalisis apa yang terjadi?
+
+Langkah:
+  1. Masukkan nc 10.15.40.20 10004
+  2. Apa password yang berhasil didapatkan oleh hacker setelah melakukan bruteforce login ftp?
+     filter yang saya gunakan pertama yaitu **tcp.len>0** kemudian mencari dengan filter **frame contains "Login"**.
+     setelah itu scroll kebawah hingga menemukan login successful.
+     <img src="attachment/atm-or-atp-or-ftp1.jpeg">
+  3. Setelah menjawab pertanyaan tersebut flag akan didapatkan.
+     <img src="attachment/atm-or-atp-or-ftp2.jpeg">
+
 ### whoami
 Dapatkah kamu menemukan siapa identitas attacker?
 1. Buka cmd dan input command **ncat 10.15.40.20 10009** maka soalnya akan muncul seperti dibawah
