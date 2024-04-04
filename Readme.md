@@ -45,6 +45,6 @@ kemudian klik file mirza.jpg dan save
 <img src="attachment/secret4.jpeg">
 4. Buka file yang telah di download dan pesan ditemukan
 <img src="attachment/secret5.jpeg">
-5. Masukkan pesan ke cmd **MIO MIRZA** dan flag diperoleh
+5. Masukkan pesan ke cmd dan flag diperoleh
 <img src="attachment/secret6.jpeg">
 
