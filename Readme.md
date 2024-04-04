@@ -150,6 +150,7 @@ Langkah:
      <img src="attachment/fuzz7.jpeg">
   6. Setelah menjawab beberapa pertanyaan tersebut flag berhasil didapatkan.
      <img src="attachment/fuzz8.jpeg">
+     <img src="attachment/fuzz9.jpeg">
 
 ### secret
 Temukan pesan rahasia dari attacker
