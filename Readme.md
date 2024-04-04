@@ -119,6 +119,7 @@ Langkah:
      <img src="attachment/evidence4.jpeg">
   6. Setelah menjawab beberapa pertanyaan tersebut flag berhasil didapatkan.
      <img src="attachment/evidence5.jpeg">
+     <img src="attachment/evidence6.jpeg">
 
 ### ! fuzz
 > My website got hacked. Can you analyze this network traffic to help me track the attacker?
