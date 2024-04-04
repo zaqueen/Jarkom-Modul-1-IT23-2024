@@ -2,7 +2,7 @@
 
 | Nama | NRP |
 | ---- | ---- |
-| Etha Felisya BR Purba | 5027221017 |
+| Etha Felisya Br Purba | 5027221017 |
 | Rahmad Aji Wicaksono | 5027221034 |
 
 ## Challenges
