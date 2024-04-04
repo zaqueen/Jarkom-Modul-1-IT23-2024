@@ -35,8 +35,10 @@ Dapatkah kamu menemukan siapa identitas attacker?
 Temukan pesan rahasia dari attacker
 1. Buka cmd dan input command **ncat 10.15.40.20 10010** maka soalnya akan muncul seperti dibawah
 <img src="attachment/secret1.jpeg">
+2. Gunakan filter STOR untuk memfokuskan pada aktivitas pengiriman file dalam koneksi FTP.
 
-<img src="attachment/secret2.jpeg">
+<img src="attachment/filter2.jpeg">
+<img src="attachment/secret+.jpeg">
 <img src="attachment/secret3.jpeg">
 <img src="attachment/secret4.jpeg">
 <img src="attachment/secret5.jpeg">
