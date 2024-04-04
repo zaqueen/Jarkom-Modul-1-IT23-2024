@@ -36,11 +36,15 @@ Temukan pesan rahasia dari attacker
 1. Buka cmd dan input command **ncat 10.15.40.20 10010** maka soalnya akan muncul seperti dibawah
 <img src="attachment/secret1.jpeg">
 2. Gunakan filter STOR untuk memfokuskan pada aktivitas pengiriman file dalam koneksi FTP.
-
 <img src="attachment/filter2.jpeg">
+Selain malicious file pada pertanyaan sebelumnya, ditemukan juga mirza.jpg
 <img src="attachment/secret+.jpeg">
+3. Download file tersebut dengan cara klik file dan export objects dan pilih FTP DATA
 <img src="attachment/secret3.jpeg">
+kemudian klik file mirza.jpg dan save
 <img src="attachment/secret4.jpeg">
+4. Buka file yang telah di download dan pesan ditemukan
 <img src="attachment/secret5.jpeg">
+5. Masukkan pesan ke cmd **MIO MIRZA** dan flag diperoleh
 <img src="attachment/secret6.jpeg">
 
